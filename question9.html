@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image properties</title>
+        <style>
+            a {
+              text-decoration: none;
+              display: inline-block;
+              padding: 8px 16px;
+            }
+            
+            a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            
+            .previous {
+              background-color: #f1f1f1;
+              color: black;
+            }
+            
+            .next {
+              background-color: #4CAF50;
+              color: white;
+            }
+            
+            .round {
+              border-radius: 50%;
+            } 
+            img.prop{
+                width:"400";
+                height:"300";
+                opacity:0.5;
+            }
+            img.prop:hover{
+                opacity: 1.1;
+            }
+            .back{
+                background: url("klematis2_small.jpg") repeat;
+                height: 400px;
+            }
+            .tbox{
+                background-color:purple;
+                opacity: 0.7;
+                width: 50%;
+                left:25%;
+                top:25%;
+                position: relative;
+                height: 100px;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+            <p>Creating transparent images - mouseover effect</p>
+            <img class="prop" src="klematis_big.jpg" alt="klematis big"/>
+        </div>
+        <div class="back">
+            <div class="tbox">
+                <p>Creating a transparent box with text on a background image</p>
+            </div>
+            <a href="question8.html" class="previous">&laquo; Previous</a>
+           <a href="question1.html" class="next">Next &raquo;</a>
+        </div>
+    </body>
+</html>
